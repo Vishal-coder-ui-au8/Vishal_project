@@ -1,0 +1,135 @@
+
+#social{
+    display: inline-block;
+    margin-left:75%;
+    margin-top:-4%
+}
+
+#logo_main{
+    height:70px;
+    width:70px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:80px;
+    display: inline-block; 
+    margin-top: 1%;
+}
+
+#mainListing{
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+/*------listing display------*/
+
+.display{
+    display:inline-block;
+}
+
+.filter{
+    -webkit-box-shadow: 0 0 8px 8px grey;
+    -moz-box-shadow: 0 0 8px 8px grey;
+    box-shadow: 0 0 8px 8px grey;
+    margin-left:6%;
+    margin-right:50px;
+}
+
+.filter2{
+    -webkit-box-shadow: 0 0 8px 8px grey;
+    -moz-box-shadow: 0 0 8px 8px grey;
+    box-shadow: 0 0 8px 8px grey;
+    margin-right:10%;
+}
+
+.mainContainer{
+    margin-top:2%;
+    margin-left:4%;
+}
+
+@media screen and (max-width:770px){
+    .filter{
+        display:none;
+    }
+} 
+
+.text{
+    margin-top:10px; 
+    color:whitesmoke; 
+    font-size:6vh;
+    margin-bottom:10px;
+}
+
+.image_con{
+    display:inline-block;
+    margin:3px 3px 3px 3px;
+    margin-right:10px;
+  }
+
+.Img{
+    width:150px; 
+    height:150px; 
+    border-radius:5px;
+}
+
+/*--------------------------*/
+
+#content{
+    width:67%;
+    float: left;
+    margin-left: 1%;
+    margin-top: -1%;
+
+}
+
+.item {
+    width: 875px;
+    height: 264px;
+    -webkit-box-shadow: 0 0 5px 5px lightgrey;
+    -moz-box-shadow: 0 0 5px 5px lightgrey;
+    box-shadow: 0 0 5px 5px lightgrey;
+    margin-bottom: 20px;
+}
+
+.Image {
+    width: 237px;
+    height: 222px;
+    border-radius: 23px;
+    background-color: #ea6060;
+    margin-left:5%;
+    margin-top:6%;
+}
+
+.hotel_name {
+    width: 100%;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: midnightblue;
+}
+
+.city_name {
+    width: 100%;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.rating {
+    line-height: 5.4;
+}
+
+.labelDiv{
+    margin-top:5%
+}

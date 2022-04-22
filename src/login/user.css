@@ -1,0 +1,37 @@
+input[type=text],input[type=password] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left:8px;
+    margin-right:18px;/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Add a background color and some padding around the form */
+.login{
+    border-radius: 5px;
+    background-image:linear-gradient(rgba(135, 190, 235, 0.527), pink, cyan);
+    padding: 20px;
+    height:300px;
+    width:60%;
+    margin-top:5%;
+    margin-left:18%;
+    margin-right:40%;
+}
+
+.logk{
+    background-image:linear-gradient(rgba(135, 190, 235, 0.527), pink, cyan);
+}
+
+.heads{
+    text-align: center;
+    background-color:black;
+    color:white;
+}
+
+.buttons{
+    display:inline-block;
+}

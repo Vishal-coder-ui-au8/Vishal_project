@@ -1,0 +1,30 @@
+/*------header------*/
+ #headings{
+    background-color:midnightblue;
+    height:20%;
+   
+ }
+
+ .myDark{
+    background-color:black;
+    color:white;
+ }
+ 
+ /*-----icon of e!------*/
+ .divisions{
+    background-color:white;
+    height: 80px;
+    width: 80px;
+    border-radius:50%;
+    position: absolute;
+    top: 33px; 
+    left: 49px;
+    z-index:3;
+ }
+  
+ span{
+    font-size: 40px;
+    font-weight:bold;
+    text-align:center;
+    padding: auto;
+ }

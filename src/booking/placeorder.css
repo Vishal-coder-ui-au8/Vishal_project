@@ -1,0 +1,31 @@
+.menu{
+    -webkit-box-shadow: 0 0 5px 5px lightgray;
+    -moz-box-shadow: 0 0 5px 5px lightgray;
+    box-shadow: 0 0 5px 5px lightgray;
+    float:left;
+    margin-right:5px;
+    width:250px;
+    height:330px;
+    margin-left: 10px;
+    margin-bottom:8px;
+}
+
+.card-image{
+    width:250px;
+}
+
+.card-image img{
+    width:250px;
+    height:130px;
+}
+
+.form{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+@media screen and (max-width:1000px){
+        .id{
+            display:none;
+        }
+}
